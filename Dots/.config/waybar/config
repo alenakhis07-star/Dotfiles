@@ -66,7 +66,7 @@
         "format-window-separator": " ",
         "window-rewrite-default": "󰏩",
         "window-rewrite": {
-            "class<org.telegram.desktop>": "", 
+            "class<com.ayugram.desktop>": "", 
             "class<Firefox Beta>": "", 
             "class<Firefox Beta> title<.*github.*>": "",
             "class<Firefox Beta> title<.*youtube.*>": "", 
