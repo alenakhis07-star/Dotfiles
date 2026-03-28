@@ -11,6 +11,11 @@ function run_fastfetch() {
         fastfetch --logo none
     fi
 }
+#function run_fastfetch() {
+#  echo ""
+#  pokemon-colorscripts -r --no-title
+#}
+
 
 export EDITOR="nvim"
 function y() {
@@ -67,6 +72,3 @@ bindkey "^[[3~" delete-char
 # Для других возможных кодов
 bindkey "^[3;5~" delete-char  # Ctrl+Delete
 bindkey "^[3~" delete-char    # Обычный Delete
-
-export PATH=/home/meow/.local/bin:$PATH
-___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
