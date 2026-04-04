@@ -70,7 +70,7 @@ PACMAN_PACKAGES=(
   bluez
   bluez-utils
   gpart
-  dosftools
+  dosfstools
   exfatprogs
   ntfs-3g
   cups
