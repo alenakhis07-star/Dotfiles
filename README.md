@@ -4,4 +4,4 @@
 - `yay -S  iwgtk nwg-look nwg-displays ttf-ms-fonts ly quickshell file-roller`
 
 **Auto install (Arch Linux)**
-- `chmod +x install.sh && ./install.sh`
+- `cd Dotfiles && chmod +x install.sh && ./install.sh`
