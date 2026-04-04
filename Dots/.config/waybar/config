@@ -6,9 +6,9 @@
         "group/power",
         "custom/hypridle",
         "hyprland/workspaces",
-        "tray",
     ],
     "modules-right": [
+        "tray",
         "hyprland/language",
         "power-profiles-daemon",
         "bluetooth",
