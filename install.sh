@@ -126,7 +126,6 @@ install_yay_if_missing() {
 # }
 
 install_packages() {
-  resolve_exfat_conflict
   log "Installing official packages via pacman"
   sudo pacman -Syu --noconfirm --needed "${PACMAN_PACKAGES[@]}"
 
