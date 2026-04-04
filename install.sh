@@ -117,13 +117,13 @@ install_yay_if_missing() {
   )
 }
 
-resolve_exfat_conflict() {
-  # exfatprogs and exfat-utils conflict; we install exfatprogs — remove the other first.
-  if pacman -Q exfat-utils &>/dev/null; then
-    log "Removing exfat-utils (conflicts with exfatprogs)"
-    sudo pacman -Rns --noconfirm exfat-utils
-  fi
-}
+# resolve_exfat_conflict() {
+#   # exfatprogs and exfat-utils conflict; we install exfatprogs — remove the other first.
+#   if pacman -Q exfat-utils &>/dev/null; then
+#     log "Removing exfat-utils (conflicts with exfatprogs)"
+#     sudo pacman -Rns --noconfirm exfat-utils
+#   fi
+# }
 
 install_packages() {
   resolve_exfat_conflict
