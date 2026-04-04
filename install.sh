@@ -145,7 +145,7 @@ install_packages() {
 copy_user_configs() {
   log "Copying user configs to \$HOME"
   mkdir -p "$HOME/.config"
-  rsync -a "$REPO_DIR/.zshrc" "$HOME"
+  rsync -a "$DOTS_DIR/.zshrc" "$HOME"
   if [[ -d "$DOTS_DIR/.config" ]]; then
     rsync -a "$DOTS_DIR/.config/" "$HOME/.config/"
   fi
