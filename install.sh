@@ -94,6 +94,7 @@ AUR_PACKAGES=(
   quickshell
   file-roller
   hiddify
+  zoom
   qt6-base
 )
 
