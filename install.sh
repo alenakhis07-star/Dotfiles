@@ -75,6 +75,7 @@ PACMAN_PACKAGES=(
   ntfs-3g
   cups
   hplip
+  libreoffice-fresh
   obsidian
   steam
   xdg-desktop-portal-hyprland
